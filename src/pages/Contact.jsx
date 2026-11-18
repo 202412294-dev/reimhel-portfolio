@@ -19,7 +19,7 @@ function Contact() {
           <span className="contact-icon">✉</span>
           <div>
             <p className="muted">EMAIL ADDRESS</p>
-            <h3>Your Email Address</h3>
+            <h3><a href="mailto:202412294@gordoncollege.edu.ph">202412294@gordoncollege.edu.ph</a></h3>
           </div>
         </div>
 
@@ -27,7 +27,7 @@ function Contact() {
           <span className="contact-icon">⌖</span>
           <div>
             <p className="muted">LOCATION</p>
-            <h3>Your Location</h3>
+            <h3>Olongapo City, Zambales</h3>
           </div>
         </div>
 
@@ -35,7 +35,15 @@ function Contact() {
           <span className="contact-icon">↗</span>
           <div>
             <p className="muted">GITHUB</p>
-            <h3>Your GitHub Profile</h3>
+            <h3>
+              <a
+                href="https://github.com/202412294-dev/reimhel-portfolio"
+                target="_blank"
+                rel="noreferrer"
+              >
+                202412294-dev/reimhel-portfolio ↗
+              </a>
+            </h3>
           </div>
         </div>
 

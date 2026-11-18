@@ -22,14 +22,16 @@ function About() {
       <div className="about-content">
 
         <div className="about-card">
-          <div className="profile-placeholder">
-            RF
-          </div>
+          <img
+            className="about-profile-image"
+            src="/images/about.jpg"
+            alt="Reimhel Fortunato"
+          />
 
           <h2>Reimhel Fortunato</h2>
 
           <p className="muted">
-            Aspiring Developer
+            BSIT 3rd Year · Gordon College
           </p>
         </div>
 
@@ -37,21 +39,28 @@ function About() {
           <h2>A little introduction</h2>
 
           <p>
-            Hello! My name is Reimhel Fortunato.
-            I am an individual interested in technology,
-            programming, and web development.
+            I am Reimhel Fortunato, a third-year Bachelor of Science in
+            Information Technology student at Gordon College. Alongside my
+            studies, I am a basketball player who enjoys the challenge of
+            working toward a shared goal and improving with every game.
           </p>
 
           <p>
-            I enjoy exploring new technologies, learning
-            programming languages, and developing creative
-            solutions to different problems.
+            Basketball has taught me that success depends on teamwork,
+            communication, and trust. I carried those values into my on-the-job
+            training as an Excel encoder. Every intern had a role in getting
+            the work done, and by helping one another organize data, verify
+            information, and solve problems, we made our tasks more accurate,
+            efficient, and enjoyable.
           </p>
 
           <p>
-            I believe that continuous learning and
-            practical experience are important in becoming
-            a better developer.
+            My OJT also brought challenges: handling large amounts of data,
+            maintaining accuracy, and meeting deadlines. Just as I stay
+            focused and learn from every game, I stayed patient, accepted
+            corrections, and kept improving my work. These experiences have
+            strengthened my discipline and problem-solving skills, and they
+            continue to shape the IT professional I hope to become.
           </p>
 
           <h2 className="skills-heading">My Skills</h2>

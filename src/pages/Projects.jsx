@@ -2,27 +2,13 @@ function Projects() {
   const projects = [
     {
       number: '01',
-      category: 'WEB DEVELOPMENT',
-      title: 'Personal Portfolio',
+      category: 'INVENTORY MANAGEMENT',
+      title: 'Inventory System',
       description:
-        'A personal website that introduces an individual, showcases skills, and presents completed projects.',
-      tech: 'React • CSS • JavaScript'
-    },
-    {
-      number: '02',
-      category: 'SYSTEM DEVELOPMENT',
-      title: 'Management System',
-      description:
-        'A web-based system designed to organize information and simplify everyday management tasks.',
-      tech: 'HTML • CSS • JavaScript'
-    },
-    {
-      number: '03',
-      category: 'CREATIVE PROJECT',
-      title: 'Digital Showcase',
-      description:
-        'A creative digital platform that presents ideas, information, and interactive content.',
-      tech: 'React • CSS'
+        'A web-based inventory system for managing products and keeping stock information organized.',
+      tech: 'Inventory Management • Web App',
+      image: '/images/project.jpg',
+      url: 'https://inventory-system-5c35b.web.app'
     }
   ]
 
@@ -32,18 +18,31 @@ function Projects() {
       <p className="eyebrow">MY SELECTED WORK</p>
 
       <h1 className="page-title">
-        Featured <span>Projects.</span>
+        My <span>Project.</span>
       </h1>
 
       <p className="section-description">
-        Here are some sample projects representing my
-        interests and learning journey.
+        Explore my inventory management system project and its tools for
+        organizing products and stock information.
       </p>
 
       <div className="projects-grid">
 
         {projects.map((project) => (
-          <article className="project-card" key={project.number}>
+          <a
+            className="project-card"
+            key={project.number}
+            href={project.url}
+            target="_blank"
+            rel="noreferrer"
+            aria-label={`Open ${project.title} in a new tab`}
+          >
+
+            <img
+              className="project-cover"
+              src={project.image}
+              alt="Inventory system cover"
+            />
 
             <div className="project-top">
               <span>{project.number}</span>
@@ -64,7 +63,7 @@ function Projects() {
               {project.tech}
             </div>
 
-          </article>
+          </a>
         ))}
 
       </div>

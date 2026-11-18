@@ -18,13 +18,15 @@ function Home() {
         </h1>
 
         <h2>
-          Aspiring Developer & Creative Thinker
+          BSIT Student & Basketball Player
         </h2>
 
         <p className="hero-description">
-          I am passionate about technology, web development,
-          and creating digital experiences. This is where I
-          showcase my journey, skills, and projects.
+          I am a third-year Bachelor of Science in Information Technology
+          student at Gordon College, a basketball player, and an aspiring
+          developer. My experiences in class, on the court, and during my OJT
+          as an Excel encoder continue to build my teamwork, discipline, and
+          attention to detail.
         </p>
 
         <div className="hero-actions">
@@ -39,9 +41,9 @@ function Home() {
       </div>
 
       <div className="hero-visual">
-        <div className="visual-circle">
-          <div className="visual-inner">
-            <span>RF</span>
+        <div className="portrait-frame">
+          <div className="portrait-image-wrap">
+            <img src="/images/pic.jpg" alt="Reimhel Fortunato" />
           </div>
         </div>
 

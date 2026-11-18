@@ -6,7 +6,7 @@ function Layout() {
   const links = [
     { name: 'Home', path: '/' },
     { name: 'About', path: '/about' },
-    { name: 'Projects', path: '/projects' },
+    { name: 'My Project', path: '/projects' },
     { name: 'Contact', path: '/contact' }
   ]
 
